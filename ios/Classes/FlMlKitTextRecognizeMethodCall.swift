@@ -65,7 +65,7 @@ class FlMlKitTextRecognizeMethodCall: FlCameraMethodCall {
         case "japanese":
             options = JapaneseTextRecognizerOptions()
         case "korean":
-                    options = KoreanTextRecognizerOptions()
+            options = KoreanTextRecognizerOptions()
         default:
             options = TextRecognizerOptions()
         }
