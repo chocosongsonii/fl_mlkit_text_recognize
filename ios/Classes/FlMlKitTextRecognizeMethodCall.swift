@@ -5,6 +5,7 @@ import Foundation
 import MLKitTextRecognition
 import MLKitTextRecognitionChinese
 import MLKitTextRecognitionJapanese
+import MLKitTextRecognitionKorean
 import MLKitVision
 
 class FlMlKitTextRecognizeMethodCall: FlCameraMethodCall {
@@ -63,6 +64,8 @@ class FlMlKitTextRecognizeMethodCall: FlCameraMethodCall {
             options = ChineseTextRecognizerOptions()
         case "japanese":
             options = JapaneseTextRecognizerOptions()
+        case "korean":
+                    options = KoreanTextRecognizerOptions()
         default:
             options = TextRecognizerOptions()
         }

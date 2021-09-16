@@ -11,6 +11,9 @@ enum RecognizedLanguage {
   /// 日语
   japanese,
 
+  /// 한국어
+  korean,
+
   /// Include all above
   // all,
 }

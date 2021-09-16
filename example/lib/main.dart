@@ -32,8 +32,8 @@ class _AppState extends State<_App> {
               text: 'Camera recognition Latin'),
           const SizedBox(height: 10),
           ElevatedText(
-              onPressed: () => openCamera(RecognizedLanguage.chinese),
-              text: 'Camera recognition Chinese'),
+              onPressed: () => openCamera(RecognizedLanguage.korean),
+              text: 'Camera recognition Korean'),
           const SizedBox(height: 10),
           ElevatedText(
               onPressed: () => openCamera(RecognizedLanguage.japanese),

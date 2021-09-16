@@ -13,6 +13,7 @@ import com.google.mlkit.vision.text.TextRecognition
 import com.google.mlkit.vision.text.TextRecognizerOptionsInterface
 import com.google.mlkit.vision.text.chinese.ChineseTextRecognizerOptions
 import com.google.mlkit.vision.text.japanese.JapaneseTextRecognizerOptions
+import com.google.mlkit.vision.text.korean.KoreanTextRecognizerOptions
 import com.google.mlkit.vision.text.latin.TextRecognizerOptions
 import fl.camera.FlCameraMethodCall
 import io.flutter.embedding.engine.plugins.FlutterPlugin
@@ -56,6 +57,7 @@ class FlMlKitTextRecognizeMethodCall(
             "latin" -> options = TextRecognizerOptions.DEFAULT_OPTIONS
             "chinese" -> options = ChineseTextRecognizerOptions.Builder().build()
             "japanese" -> options = JapaneseTextRecognizerOptions.Builder().build()
+            "korean" -> options = KoreanTextRecognizerOptions.Builder().build()
         }
     }
 
