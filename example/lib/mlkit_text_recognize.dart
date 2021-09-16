@@ -5,7 +5,7 @@ import 'package:flutter_waya/flutter_waya.dart';
 
 class FlMlKitTextRecognizePage extends StatefulWidget {
   const FlMlKitTextRecognizePage(
-      {Key? key, this.recognizedLanguage = RecognizedLanguage.latin})
+      {Key? key, this.recognizedLanguage = RecognizedLanguage.korean})
       : super(key: key);
   final RecognizedLanguage recognizedLanguage;
 
